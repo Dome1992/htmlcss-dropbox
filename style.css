@@ -32,6 +32,9 @@ h1{
 img{
     width: 90%;
 }
+.imgpartner{
+    width: 450px;
+}
 #arrow{
     font-size: 40px;
 }
@@ -63,11 +66,11 @@ img{
 
 }
 
-h2{
-    font-size: 45px;
+/*h2{
+    font-size: 40px;
     margin-left: 215px;
     padding-top:50px;  
-}
+}*/
 .radio{
     margin-left: 215px;
     padding-top:50px;
@@ -82,11 +85,12 @@ h2{
 
 .section1{
     background-color: pink;
-    min-height: 400px;
+    height: 610px;
     flex-basis: 20%;
     border:1px solid black;
     margin: 20px;
-
+    display: flex;
+    flex-direction:column;
 }
 #simboli{
      margin-left: 90px;
@@ -95,57 +99,96 @@ h2{
 h3{
     margin-top: 50px;
 }
-.user{
-    
+#user1{
     background-color: aqua;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+   /* background-color: aqua;
     height: 50px;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;*/
 }
 
 .conteiner3{
-    background-color: coral;
+   /* background-color: coral;*/
     min-height: 350px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .section2{
-    background-color: pink;
-    height: 300px;
-    flex-basis: 70%;
-    border:2px solid black; 
+   /* background-color: pink;*/
+    height: 200px;
+    width: 890px;
+    border:1px solid gray; 
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-evenly;
+}
+.userc3{
+    /*background-color: pink;*/
+    height: 50px;
+    width: 890px;
+    display: flex;
+    justify-content: center;
+    border:1px solid gray;
+    align-items: center; 
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    margin-top:20px;
+}
+.buttonc3{
+    color:white;
+    background-color: blue;
+    width: 20%;
+    height: 40px;
+
 }
 
 
 
 .conteiner4{
-    background-color: darkgreen;
-    min-height: 400px;
+   /* background-color: darkgreen;*/
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .section3{
-    background-color: pink;
-    height: 300px;
-    flex-basis: 50%;
-    border:2px solid black;
+   /* background-color: pink;
+    border:2px solid black;*/
+    min-height: 300px;
+    flex-basis: 40%;
+    
   
 }
-
+.trovapartner{
+    background-color: white;
+    border: 1px solid grey
+}
 .section4{
-    background-color: pink;
-    height: 300px;
+   /* background-color: pink;
+     border:2px solid black;*/
+    min-height: 300px;
     flex-basis: 20%;
-    border:2px solid black;
    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
 }
 p{
     font-size: small;
 }
 
 .conteiner5{
-    background-color: rgb(255, 251, 9);
+    /*background-color: rgb(255, 251, 9);*/
     min-height: 400px;
     display: flex;
     justify-content: center;
@@ -153,15 +196,24 @@ p{
     flex-wrap: wrap;
 }
 .section5{
-    background-color: pink;
-    height: 300px;
+    /*background-color: pink;
+     border:2px solid black;*/
+    min-height: 450px;
     margin:35px;
     flex-basis: 20%;
-    border:2px solid black;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.titolosection5{
+    color:black;
+    font-size: 20px;
 }
 
 .conteiner6{
-    background-color: darkgray;
+    /*background-color: darkgray;*/
     min-height: 250px;
     display: flex;
     justify-content: center;
@@ -169,11 +221,50 @@ p{
 
 }
 .section6{
-    background-color: pink;
+   /* background-color: pink;
+    border:2px solid black;*/
     height: 200px;
     flex-basis: 70%;
-    border:2px solid black;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.conteiner6s{
+    background-color:rgb(91, 159, 248);
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section6s{
+    /*background-color: pink;*/
+    height: 200px;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+h5{
+    font-size: 35px;
+    color: rgb(97, 25, 25);
+}
+#button6{
+    background-color: white;
+    height: 25%;
+    width: 25%;
+}
+
+
+h2{
+    font-size: 35px;
+}
+#link6{
+    text-decoration:underline;
+    color:blue;
+    font-size: small;
 }
 
 .conteiner7{
@@ -197,25 +288,39 @@ p{
     height: 200px;
     width: calc(100% / 2);
     border:2px solid black;
-
 }
+.imgminisection{
+    filter: grayscale;
+}
+
+.conteiner1s{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 400px;
+}
+
 .logo{
     width: 80px;
 }
-a{
+.afooter{
     font-size: small;
     text-decoration: none;
     margin: 15px;
+    color: white;
 }
- button{
+button{
     border: none;
     background-color: blue;
     padding: 10px;
     
  }
-button > a{
+
+ 
+/*button > a{
     color:white;
-}
+}*/
  .conteiner-footer{
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -229,9 +334,9 @@ button > a{
     color: white;
 
  }
-a{
+/*a{
     color: white;
-}
+}*/
  
  .section{
     /*background-color: pink;
