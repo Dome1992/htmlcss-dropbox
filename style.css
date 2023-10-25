@@ -19,6 +19,11 @@ header{
     justify-content: space-between;
     padding: 20px;
 }
+.aheader{
+    margin:10px;
+    font-size: small;
+    text-decoration: none;
+}
 .titolo{
     background-color:rgb(91, 159, 248); 
     
@@ -84,11 +89,26 @@ img{
     min-height: 500px;
 }
 
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height: 250px;
+  /*  background-color: aquamarine;*/
+
+}
 .parte1{
+    width: 65%;
+    height: 200px;
+   /* background-color: pink;
+    border: 1px solid black;*/
     display: flex;
     flex-direction: column;
-    margin: 35px;
-
+    justify-content: space-around;
+}
+#fatturazione{
+    margin-left:20px;
 }
 
 
