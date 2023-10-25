@@ -75,6 +75,8 @@ img{
     margin-left: 215px;
     padding-top:50px;
 }
+
+
 .conteiner2{
     /*background-color: rgb(167, 91, 91);*/
     display: flex;
@@ -82,15 +84,26 @@ img{
     min-height: 500px;
 }
 
+.parte1{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+
+}
+
 
 .section1{
-    background-color: pink;
-    height: 610px;
+  /*  background-color: pink;*/
+    min-height: 705px;
     flex-basis: 20%;
-    border:1px solid black;
+    border:1px solid grey;
     margin: 20px;
     display: flex;
     flex-direction:column;
+   
+}
+.contenuto{
+    padding: 16px;
 }
 #simboli{
      margin-left: 90px;
@@ -100,7 +113,7 @@ h3{
     margin-top: 50px;
 }
 #user1{
-    background-color: aqua;
+  /* background-color: aqua;*/
     text-align: center;
     height: 50px;
     border-bottom: 1px solid grey;
@@ -151,8 +164,6 @@ li{
     height: 40px;
 
 }
-
-
 
 .conteiner4{
    /* background-color: darkgreen;*/
@@ -259,7 +270,7 @@ h5{
 
 
 h2{
-    font-size: 35px;
+    font-size: 30px;
 }
 #link6{
     text-decoration:underline;
@@ -275,30 +286,136 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.imgminisection{
+    width: 50%;
+    filter: invert(1);
+    transition: 1s;
+}
+.imgminisection:hover {
+    transform: scale(2);
+}
+#designit{
+    width: 50%;
+}
 .section7{
-    background-color: pink;
+   background-color: beige;
     height: 400px;
     width: calc(100% / 3);
-    border:2px solid black;
+   /* border:2px solid black;*/
     display: flex;
     flex-wrap: wrap;
 }
-.minisection{
-    background-color: cyan;
+#section7center{
+    background-color: beige;
+    height: 400px;
+    width: calc(100% / 3);
+   /* border:2px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding:15px;
+    overflow-y: auto;
+}
+.minisection1{
+    background-color: rgb(0, 255, 115);
     height: 200px;
     width: calc(100% / 2);
-    border:2px solid black;
-}
-.imgminisection{
-    filter: grayscale;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
 }
 
-.conteiner1s{
+
+.minisection2{
+    background-color: rgb(109, 19, 19);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    /*border:1px solid black;*/
+}
+.minisection3{
+    background-color: rgb(0, 193, 252);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
+}
+.minisection4{
+    background-color: rgb(255, 5, 5);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
+}
+.minisection5{
+    background-color: rgb(196, 2, 2);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
+}
+.minisection6{
+    background-color: rgb(165, 243, 253);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
+}
+.minisection7{
+    background-color: rgb(5, 30, 255);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+   /* border:1px solid black;*/
+}
+.minisection8{
+    background-color: rgb(230, 255, 5);
+    height: 200px;
+    width: calc(100% / 2);
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    /*border:1px solid black;*/
+}
+
+
+.conteiner8{
     
     display: flex;
     justify-content: center;
     align-items:center;
     min-height: 400px;
+}
+.section8{
+   /* background-color: pink;
+   border: 1px solid black;*/
+    min-height: 300px;
+    width:60%;
+    
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
@@ -318,9 +435,10 @@ button{
  }
 
  
-/*button > a{
+button > a{
     color:white;
-}*/
+    text-decoration:none;
+}
  .conteiner-footer{
     display: flex;
     background-color: rgb(0, 0, 0);
