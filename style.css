@@ -8,12 +8,11 @@
 }
 
 header{
-    
-    height: 70px;
+    background-color: white;
+    height: 50px;
     display: flex;
-    /*
     position: fixed;
-    z-index: 500;*/
+    z-index: 500;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -58,6 +57,12 @@ img{
     flex-basis: 25%;
    
 }
+.imgintro{
+    padding: 24px;
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 55%;
+}
 
 .intro2{
    /* background-color: pink;
@@ -100,7 +105,7 @@ img{
 }
 .parte1{
     width: 65%;
-    height: 200px;
+    height: 150px;
    /* background-color: pink;
     border: 1px solid black;*/
     display: flex;
@@ -433,6 +438,8 @@ h2{
     width:60%;
     
 }
+
+
 .faq{
     display: flex;
     justify-content: space-between;
